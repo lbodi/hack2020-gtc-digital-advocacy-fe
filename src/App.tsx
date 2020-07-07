@@ -1,5 +1,4 @@
 import React from 'react';
-import './App.css';
 import {ThemeProvider, CSSReset, theme} from "@getgo/instant-join-ui";
 import {BrowserRouter} from "react-router-dom";
 import {Campaign} from "./views/Campaign";
