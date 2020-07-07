@@ -5,7 +5,7 @@ import {BrowserRouter} from "react-router-dom";
 import {Campaign} from "./views/Campaign";
 
 const App = () => (
-    <BrowserRouter>
+    <BrowserRouter basename="/hack2020-gtc-digital-advocacy-fe">
         <ThemeProvider theme={theme}>
             <CSSReset/>
             <Campaign/>
