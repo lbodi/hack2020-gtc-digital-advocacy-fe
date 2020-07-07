@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e2a0bb2efd8afb17a73b85f4d64f14c6",
+    "revision": "32531e12faa2d19fb4912b821d374f34",
     "url": "/hack2020-gtc-digital-advocacy-fe/index.html"
   },
   {
