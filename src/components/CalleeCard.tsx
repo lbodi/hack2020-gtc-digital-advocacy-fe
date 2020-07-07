@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Stack, Text } from "@getgo/instant-join-ui";
+import { Image, Stack, Text } from "@chakra-ui/core";
 import { Callee } from "../data/callee";
 
 export const CalleeCard = (props: any) => {

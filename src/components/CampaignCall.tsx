@@ -1,15 +1,17 @@
 import React from 'react';
 import { campaigns } from '../data/campaigns'
-import {Heading, List, ListItem, Stack, Text} from "@getgo/instant-join-ui";
 import { Callee } from "../data/callee";
 import { CalleeCard } from "./CalleeCard";
+import {Box, Heading, List, ListItem, Stack, Text} from "@chakra-ui/core";
 
 const instructions = campaigns[0].instructions.map((instruction: string) =>
     <ListItem key={instruction}>{instruction}</ListItem>
 );
 
 const callees = campaigns[0].callees.map((callee: Callee) =>
-    <ListItem key={callee.name}><CalleeCard callee={callee} /></ListItem>
+    <Box key={callee.name}>
+        <CalleeCard callee={callee} />
+    </Box>
 );
 
 export const CampaignCall = () => (
@@ -33,8 +35,7 @@ export const CampaignCall = () => (
             You are on call with:
         </Heading>
 
-        <List>
-            {callees}
-        </List>
+        {callees}
+
     </Stack>
 );
