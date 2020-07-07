@@ -1,7 +1,7 @@
 import React from 'react';
 import { ThemeProvider, CSSReset, theme } from "@getgo/instant-join-ui";
 import './App.css';
-import {Campaign} from "./views/Campaign";
+import { Campaign } from "./views/Campaign";
 
 function App() {
   return (
