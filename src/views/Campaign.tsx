@@ -1,31 +1,28 @@
 import React from 'react';
-import { CampaignCall } from "../components/CampaignCall";
-import { CampaignInfo } from "../components/CampaignInfo";
-import { campaigns } from '../data/campaigns'
+import {campaigns} from '../data/campaigns'
 import './Campaign.css';
-import { Text, Image } from "@getgo/instant-join-ui";
+import {Text, Image} from "@getgo/instant-join-ui";
+import {CampaignRoutes} from "./CampaignRoutes";
 
-const CampaignBody = (props: any) => (
-    props.isCallInProgress
-        ? <CampaignCall/>
-        : <CampaignInfo/>
-        );
+export const Campaign = (props: any) => {
+    const isCallInProgress: boolean = props.isCallInProgress;
+    return (
+        <div>
 
-export const Campaign = () => (
-    <div>
-
-        <div className="split left">
-            <div className="full">
-                <Image src={campaigns[0].cover} alt="Campaign cover" />
+            <div className="split left">
+                <div className="full">
+                    <Image src={campaigns[0].cover} alt="Campaign cover"/>
+                </div>
             </div>
-        </div>
 
-        <div className="split right">
-            <CampaignBody isCallInProgress={true} />
-            <Text fontSize="12px" color="gray.500" position="fixed" bottom="10">
-                Ⓒ 2020. All rights reserved. Subject to Privacy Policy.
-            </Text>
-        </div>
+            <div className="split right">
+                <CampaignRoutes/>
+                <Text fontSize="12px" color="gray.500" position="fixed" bottom="10">
+                    Ⓒ 2020. All rights reserved. Subject to Privacy Policy.
+                    {isCallInProgress}
+                </Text>
+            </div>
 
-    </div>
-);
+        </div>
+    );
+};
