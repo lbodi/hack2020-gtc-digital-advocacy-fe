@@ -3,6 +3,7 @@ import {campaigns} from '../data/campaigns'
 import {Button, Input, Stack, Heading, Text, Box, Image} from "@getgo/instant-join-ui";
 import gtcBanner from "../img/GTC_banner.png";
 import {useHistory} from 'react-router-dom';
+import {Copyright} from "./Copyright";
 
 const formatText = (text: string) =>
     text.split('\n').map(i => (
@@ -34,17 +35,21 @@ export const CampaignInfo = () => {
             </Box>
 
             <Stack spacing={8}>
-                <Box w="40%">
+                <Box w="300px">
                     <Heading as="h4" size="sm">
                         Phone number
                     </Heading>
-                    <Input placeholder="Phone"/>
+                    <Input
+                        placeholder="Phone"
+                    />
                 </Box>
                 <Stack isInline spacing={8} align="center">
                     <Button onClick={startCall} w="180px">Start call</Button>
                     <Button variant="outline" w="180px">Sign petition</Button>
                 </Stack>
             </Stack>
+
+            <Copyright/>
 
         </Stack>
     );

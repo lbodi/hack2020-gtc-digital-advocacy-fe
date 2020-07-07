@@ -3,6 +3,7 @@ import { campaigns } from '../data/campaigns'
 import { Callee } from "../data/callee";
 import { CalleeCard } from "./CalleeCard";
 import {Box, Heading, List, ListItem, Stack, Text} from "@chakra-ui/core";
+import {Copyright} from "./Copyright";
 
 const instructions = campaigns[0].instructions.map((instruction: string) =>
     <ListItem key={instruction}>{instruction}</ListItem>
@@ -36,6 +37,8 @@ export const CampaignCall = () => (
         </Heading>
 
         {callees}
+
+        <Copyright/>
 
     </Stack>
 );
