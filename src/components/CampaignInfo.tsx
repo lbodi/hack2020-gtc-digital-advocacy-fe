@@ -1,14 +1,31 @@
 import React from 'react';
 import { campaigns } from '../data/campaigns'
-import gtcBanner from "../img/GTC_banner.png";
+import { Button, Input, Stack, Heading, Text } from "@getgo/instant-join-ui";
+import { Logo } from "./Logo";
 
 export const CampaignInfo = () => (
-    <div>
-        <h1>Digital advocacy campaign</h1>
-        <img src={gtcBanner} alt="GotoConnect banner" />
+    <Stack spacing={8}>
+        <Logo/>
 
-        <h2>{campaigns[0].title}</h2>
+        <Heading as="h3" size="lg">
+            {campaigns[0].title}
+        </Heading>
 
-        <div>{campaigns[0].text}</div>
-    </div>
+        <Text>{campaigns[0].text}</Text>
+
+        <Stack spacing={8}>
+
+            <Input placeholder="Phone" />
+
+            <Stack isInline spacing={8} align="center">
+
+                <Button>Start call</Button>
+
+                <Button variant="outline">Sign petition</Button>
+
+            </Stack>
+
+        </Stack>
+
+    </Stack>
 );
