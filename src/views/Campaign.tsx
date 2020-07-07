@@ -10,14 +10,17 @@ export const Campaign = (props: any) => {
         <div>
 
             <div className="split left">
-                <div className="full">
-                    <Image src={campaigns[0].cover} alt="Campaign cover"/>
-                </div>
+                <Image src={campaigns[0].cover}
+                       alt="Campaign cover"
+                       position="absolute"
+                       top="0" left="0" objectFit="cover"
+                       height="100%"
+                />
             </div>
 
             <div className="split right">
                 <CampaignRoutes/>
-                <Text fontSize="12px" color="gray.500" position="fixed" bottom="10">
+                <Text fontSize="12px" color="gray.500" position="absolute" bottom="10">
                     Ⓒ 2020. All rights reserved. Subject to Privacy Policy.
                     {isCallInProgress}
                 </Text>
