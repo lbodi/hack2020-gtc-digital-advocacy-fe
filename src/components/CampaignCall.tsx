@@ -5,11 +5,11 @@ import { Callee } from "../data/callee";
 import { CalleeCard } from "./CalleeCard";
 
 const instructions = campaigns[0].instructions.map((instruction: string) =>
-    <ListItem>{instruction}</ListItem>
+    <ListItem key={instruction}>{instruction}</ListItem>
 );
 
 const callees = campaigns[0].callees.map((callee: Callee) =>
-    <ListItem><CalleeCard callee={callee}/></ListItem>
+    <ListItem key={callee.name}><CalleeCard callee={callee} /></ListItem>
 );
 
 export const CampaignCall = () => (

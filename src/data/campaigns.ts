@@ -1,4 +1,6 @@
 import { CampaignData } from "./campaignData";
+import jennifer from "../img/jennifer_doe.jpg"
+import deepak from "../img/deepak_doe.jpg"
 
 export const campaigns: CampaignData[] = [
     {
@@ -17,12 +19,12 @@ export const campaigns: CampaignData[] = [
             {
                 name: "Jennifer Doe",
                 title: "Member of Congress",
-                imgSrc: "../img/jennifer_doe.jpg"
+                imgSrc: jennifer
             },
             {
                 name: "Deepak Doe",
                 title: "Member of Congress",
-                imgSrc: "../img/deepak_doe.jpg"
+                imgSrc: deepak
             }
         ]
     }

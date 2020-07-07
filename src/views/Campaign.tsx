@@ -21,7 +21,7 @@ export const Campaign = () => (
         </div>
 
         <div className="split right">
-            <CampaignBody isCallInProgress={true} />
+            <CampaignBody isCallInProgress={false} />
             <Text fontSize="8px" color="gray.500">
                 Ⓒ 2020. All rights reserved. Subject to Privacy Policy.
             </Text>
