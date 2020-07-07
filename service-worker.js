@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/hack2020-gtc-digital-advocacy-fe/precache-manifest.8d41c41bb9456664688e5f58bc6f059e.js"
+  "/hack2020-gtc-digital-advocacy-fe/precache-manifest.12d43bc34a77a30d355eb43f30ef9b7e.js"
 );
 
 self.addEventListener('message', (event) => {
