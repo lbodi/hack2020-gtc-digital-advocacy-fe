@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/hack2020-gtc-digital-advocacy-fe/static/css/main.53185910.chunk.css",
-    "main.js": "/hack2020-gtc-digital-advocacy-fe/static/js/main.906262dd.chunk.js",
-    "main.js.map": "/hack2020-gtc-digital-advocacy-fe/static/js/main.906262dd.chunk.js.map",
+    "main.css": "/hack2020-gtc-digital-advocacy-fe/static/css/main.87cfea8d.chunk.css",
+    "main.js": "/hack2020-gtc-digital-advocacy-fe/static/js/main.f3e5a3ce.chunk.js",
+    "main.js.map": "/hack2020-gtc-digital-advocacy-fe/static/js/main.f3e5a3ce.chunk.js.map",
     "runtime-main.js": "/hack2020-gtc-digital-advocacy-fe/static/js/runtime-main.37f861d1.js",
     "runtime-main.js.map": "/hack2020-gtc-digital-advocacy-fe/static/js/runtime-main.37f861d1.js.map",
-    "static/js/2.4da9b2f2.chunk.js": "/hack2020-gtc-digital-advocacy-fe/static/js/2.4da9b2f2.chunk.js",
-    "static/js/2.4da9b2f2.chunk.js.map": "/hack2020-gtc-digital-advocacy-fe/static/js/2.4da9b2f2.chunk.js.map",
+    "static/js/2.04376de0.chunk.js": "/hack2020-gtc-digital-advocacy-fe/static/js/2.04376de0.chunk.js",
+    "static/js/2.04376de0.chunk.js.map": "/hack2020-gtc-digital-advocacy-fe/static/js/2.04376de0.chunk.js.map",
     "index.html": "/hack2020-gtc-digital-advocacy-fe/index.html",
-    "precache-manifest.717d534e5d58d9d6922b232a02c46b3c.js": "/hack2020-gtc-digital-advocacy-fe/precache-manifest.717d534e5d58d9d6922b232a02c46b3c.js",
+    "precache-manifest.8b597e0508b7fe48731a201e18e53117.js": "/hack2020-gtc-digital-advocacy-fe/precache-manifest.8b597e0508b7fe48731a201e18e53117.js",
     "service-worker.js": "/hack2020-gtc-digital-advocacy-fe/service-worker.js",
-    "static/css/main.53185910.chunk.css.map": "/hack2020-gtc-digital-advocacy-fe/static/css/main.53185910.chunk.css.map",
-    "static/js/2.4da9b2f2.chunk.js.LICENSE.txt": "/hack2020-gtc-digital-advocacy-fe/static/js/2.4da9b2f2.chunk.js.LICENSE.txt",
+    "static/css/main.87cfea8d.chunk.css.map": "/hack2020-gtc-digital-advocacy-fe/static/css/main.87cfea8d.chunk.css.map",
+    "static/js/2.04376de0.chunk.js.LICENSE.txt": "/hack2020-gtc-digital-advocacy-fe/static/js/2.04376de0.chunk.js.LICENSE.txt",
     "static/media/campaign-cover.jpg": "/hack2020-gtc-digital-advocacy-fe/static/media/campaign-cover.84239ffb.jpg",
     "static/media/deepak_doe.jpg": "/hack2020-gtc-digital-advocacy-fe/static/media/deepak_doe.bc5875d8.jpg",
     "static/media/jennifer_doe.jpg": "/hack2020-gtc-digital-advocacy-fe/static/media/jennifer_doe.374534f1.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.37f861d1.js",
-    "static/js/2.4da9b2f2.chunk.js",
-    "static/css/main.53185910.chunk.css",
-    "static/js/main.906262dd.chunk.js"
+    "static/js/2.04376de0.chunk.js",
+    "static/css/main.87cfea8d.chunk.css",
+    "static/js/main.f3e5a3ce.chunk.js"
   ]
 }
