@@ -1,17 +1,18 @@
 {
   "files": {
     "main.css": "/hack2020-gtc-digital-advocacy-fe/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/hack2020-gtc-digital-advocacy-fe/static/js/main.a2ef63b8.chunk.js",
-    "main.js.map": "/hack2020-gtc-digital-advocacy-fe/static/js/main.a2ef63b8.chunk.js.map",
+    "main.js": "/hack2020-gtc-digital-advocacy-fe/static/js/main.ad1bb0c0.chunk.js",
+    "main.js.map": "/hack2020-gtc-digital-advocacy-fe/static/js/main.ad1bb0c0.chunk.js.map",
     "runtime-main.js": "/hack2020-gtc-digital-advocacy-fe/static/js/runtime-main.37f861d1.js",
     "runtime-main.js.map": "/hack2020-gtc-digital-advocacy-fe/static/js/runtime-main.37f861d1.js.map",
     "static/js/2.5f15e3f5.chunk.js": "/hack2020-gtc-digital-advocacy-fe/static/js/2.5f15e3f5.chunk.js",
     "static/js/2.5f15e3f5.chunk.js.map": "/hack2020-gtc-digital-advocacy-fe/static/js/2.5f15e3f5.chunk.js.map",
     "index.html": "/hack2020-gtc-digital-advocacy-fe/index.html",
-    "precache-manifest.7ad99d2e624848ef9f11daf005cb1800.js": "/hack2020-gtc-digital-advocacy-fe/precache-manifest.7ad99d2e624848ef9f11daf005cb1800.js",
+    "precache-manifest.2b99efd38fee479c6d91707e73b3602f.js": "/hack2020-gtc-digital-advocacy-fe/precache-manifest.2b99efd38fee479c6d91707e73b3602f.js",
     "service-worker.js": "/hack2020-gtc-digital-advocacy-fe/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/hack2020-gtc-digital-advocacy-fe/static/css/main.5ecd60fb.chunk.css.map",
     "static/js/2.5f15e3f5.chunk.js.LICENSE.txt": "/hack2020-gtc-digital-advocacy-fe/static/js/2.5f15e3f5.chunk.js.LICENSE.txt",
+    "static/media/LMI_GotoConnect_banner.svg": "/hack2020-gtc-digital-advocacy-fe/static/media/LMI_GotoConnect_banner.59e3c6b5.svg",
     "static/media/campaign-cover.jpg": "/hack2020-gtc-digital-advocacy-fe/static/media/campaign-cover.84239ffb.jpg",
     "static/media/deepak_doe.jpg": "/hack2020-gtc-digital-advocacy-fe/static/media/deepak_doe.bc5875d8.jpg",
     "static/media/jennifer_doe.jpg": "/hack2020-gtc-digital-advocacy-fe/static/media/jennifer_doe.374534f1.jpg"
@@ -20,6 +21,6 @@
     "static/js/runtime-main.37f861d1.js",
     "static/js/2.5f15e3f5.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.a2ef63b8.chunk.js"
+    "static/js/main.ad1bb0c0.chunk.js"
   ]
 }

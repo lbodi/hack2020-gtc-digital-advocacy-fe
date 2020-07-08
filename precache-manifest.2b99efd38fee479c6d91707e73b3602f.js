@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b4a047ca3bc34f472b4ceddba29d9d62",
+    "revision": "d359d2a70f461547891d3c292bc609a6",
     "url": "/hack2020-gtc-digital-advocacy-fe/index.html"
   },
   {
-    "revision": "71a42112265aa2512a82",
+    "revision": "c777d7d4a76dfccb8a20",
     "url": "/hack2020-gtc-digital-advocacy-fe/static/css/main.5ecd60fb.chunk.css"
   },
   {
@@ -16,12 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/hack2020-gtc-digital-advocacy-fe/static/js/2.5f15e3f5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "71a42112265aa2512a82",
-    "url": "/hack2020-gtc-digital-advocacy-fe/static/js/main.a2ef63b8.chunk.js"
+    "revision": "c777d7d4a76dfccb8a20",
+    "url": "/hack2020-gtc-digital-advocacy-fe/static/js/main.ad1bb0c0.chunk.js"
   },
   {
     "revision": "373f5ca436409fc8cef2",
     "url": "/hack2020-gtc-digital-advocacy-fe/static/js/runtime-main.37f861d1.js"
+  },
+  {
+    "revision": "59e3c6b516cc89dee046c496978a69cf",
+    "url": "/hack2020-gtc-digital-advocacy-fe/static/media/LMI_GotoConnect_banner.59e3c6b5.svg"
   },
   {
     "revision": "84239ffbc7bd1857569ea926594b5596",
