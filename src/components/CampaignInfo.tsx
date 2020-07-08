@@ -4,6 +4,8 @@ import {Button, Input, Stack, Heading, Text, Box, Image} from "@getgo/instant-jo
 import gtcBanner from "../img/LMI_GotoConnect_banner.svg";
 import {useHistory, useParams} from 'react-router-dom';
 import {Copyright} from "./Copyright";
+import {FormControl} from "@chakra-ui/core";
+import FormLabel from "@chakra-ui/core/dist/FormLabel";
 
 const formatText = (text: string) =>
     text.split('\n').map(i => (
@@ -43,12 +45,15 @@ export const CampaignInfo = () => {
             <Text>Enter your zip code below to get started.</Text>
 
             <Stack spacing={4}>
-                <Stack w="300px" spacing={1}>
-                    <Heading as="h5" size="xs">
-                        Zip code
-                    </Heading>
-                    <Input placeholder="11111"/>
-                </Stack>
+                <FormControl>
+                    <FormLabel htmlFor="zip">Zip code</FormLabel>
+                    <Input
+                        w="300px"
+                        type="number"
+                        placeholder="11111"
+                        id="zip"
+                    />
+                </FormControl>
                 <Stack isInline spacing={8} align="center">
                     <Button onClick={onClick} w="180px">Next</Button>
                 </Stack>

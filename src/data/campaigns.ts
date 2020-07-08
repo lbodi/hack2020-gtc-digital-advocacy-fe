@@ -8,6 +8,7 @@ export const campaigns: CampaignData[] = [
         id: "IV2NJ6W0QgGVagAAoFgrIw",
         title: "Fight to end Qualified Immunity Act",
         cover: campaignCover,
+        coverAltText: "Black Lives Matter",
         text: "This week, U.S. Congressman Justin Amash, an independent from Michigan, is introducing the \"Ending Qualified Immunity Act.\" This Act will eliminate qualified immunity and restore Americans’ ability to obtain relief when police officers violate their constitutionally secured rights." +
             "\n" +
             "Government actors should not be held to less of a standard than the general public, they should be held to an even higher standard because of the power they hold.",

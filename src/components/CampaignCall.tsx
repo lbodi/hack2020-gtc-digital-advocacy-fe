@@ -1,7 +1,7 @@
 import React from 'react';
-import { campaigns } from '../data/campaigns'
-import { Callee } from "../data/callee";
-import { CalleeCard } from "./CalleeCard";
+import {campaigns} from '../data/campaigns'
+import {Callee} from "../data/callee";
+import {CalleeCard} from "./CalleeCard";
 import {Box, Heading, List, ListItem, Stack, Text} from "@chakra-ui/core";
 import {Copyright} from "./Copyright";
 
@@ -11,7 +11,7 @@ const instructions = campaigns[0].instructions.map((instruction: string) =>
 
 const callees = campaigns[0].callees.map((callee: Callee) =>
     <Box key={callee.name}>
-        <CalleeCard callee={callee} />
+        <CalleeCard callee={callee}/>
     </Box>
 );
 
@@ -26,17 +26,19 @@ export const CampaignCall = () => (
             {instructions}
         </List>
 
-        <Heading as="h4" size="sm">
-            Main talking point
-        </Heading>
+        <Stack spacing={1}>
+            <Heading as="h4" size="sm">
+                Main talking point
+            </Heading>
+            <Text>{campaigns[0].talkingPoint}</Text>
+        </Stack>
 
-        <Text>{campaigns[0].talkingPoint}</Text>
-
-        <Heading as="h4" size="sm">
-            You are on call with:
-        </Heading>
-
-        {callees}
+        <Stack spacing={4}>
+            <Heading as="h4" size="sm">
+                You are on call with:
+            </Heading>
+            {callees}
+        </Stack>
 
         <Copyright/>
 

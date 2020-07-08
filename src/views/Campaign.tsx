@@ -7,7 +7,7 @@ export const Campaign = () => (
     <Flex h="100%" direction={{base:"column", md:"row"}}>
         <Flex h={{base: "50%", md: "100%"}} w={{base: "100%", md: "50%"}}>
             <Image src={campaigns[0].cover}
-                   alt="Campaign cover"
+                   alt={campaigns[0].coverAltText}
                    objectFit="cover"
                    h="100%"
             />

@@ -5,6 +5,7 @@ export interface CampaignData {
     text: string;
     title: string;
     cover: any;
+    coverAltText: string;
     instructions: string[];
     talkingPoint: string;
     callees: Callee[];
