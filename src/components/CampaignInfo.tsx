@@ -13,7 +13,7 @@ const formatText = (text: string) =>
 export const CampaignInfo = () => {
     const history = useHistory();
 
-    const startCall = () => history.push("/calling");
+    const onClick = () => history.push("/start");
 
     return (
         <Stack spacing={8}>
@@ -34,18 +34,21 @@ export const CampaignInfo = () => {
                 </Stack>
             </Box>
 
-            <Stack spacing={8}>
+            <Heading as="h3" size="lg" maxWidth={600}>
+                We’ll help you connect with your representatives directly so you can ask them to support this bill.
+            </Heading>
+
+            <Text>Enter your zip code below to get started.</Text>
+
+            <Stack spacing={4}>
                 <Box w="300px">
-                    <Heading as="h4" size="sm">
-                        Phone number
+                    <Heading as="h5" size="xs">
+                        Zip code
                     </Heading>
-                    <Input
-                        placeholder="Phone"
-                    />
+                    <Input placeholder="11111"/>
                 </Box>
                 <Stack isInline spacing={8} align="center">
-                    <Button onClick={startCall} w="180px">Start call</Button>
-                    <Button variant="outline" w="180px">Sign petition</Button>
+                    <Button onClick={onClick} w="180px">Next</Button>
                 </Stack>
             </Stack>
 
