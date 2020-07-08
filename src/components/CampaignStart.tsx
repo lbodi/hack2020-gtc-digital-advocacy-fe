@@ -6,6 +6,7 @@ import {Box, Heading, Stack, Text, Input} from "@chakra-ui/core";
 import {Copyright} from "./Copyright";
 import {useHistory, useParams} from "react-router-dom";
 import {Button} from "@getgo/instant-join-ui";
+import Axios from "axios";
 
 const callees = campaigns[0].callees.map((callee: Callee) =>
     <Box key={callee.name}>
@@ -13,10 +14,15 @@ const callees = campaigns[0].callees.map((callee: Callee) =>
     </Box>
 );
 
+const baseUrl = "https://zsonagy-8080.ngrok.io/call/"
+
 export const CampaignStart = () => {
     const { campaignId } = useParams();
     const history = useHistory();
-    const onClick = () => history.push(`/${campaignId}/calling`);
+    const onClick = () => {
+        Axios.post(baseUrl + value);
+        history.push(`/${campaignId}/calling`);
+    };
 
     const [value, setValue] = useState("");
     const handleChange = (event: any) => setValue(event.target.value);
@@ -57,7 +63,7 @@ export const CampaignStart = () => {
                     <Heading as="h5" size="xs">
                         Enter your phone number
                     </Heading>
-                    <Input placeholder="Number"
+                    <Input placeholder="+00 00 000 00 00"
                            type="phone"
                            value={value}
                            onChange={handleChange}
