@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {campaigns} from '../data/campaigns'
 import {Callee} from "../data/callee";
 import {CalleeCard} from "./CalleeCard";
@@ -17,6 +17,9 @@ export const CampaignStart = () => {
     const { campaignId } = useParams();
     const history = useHistory();
     const onClick = () => history.push(`/${campaignId}/calling`);
+
+    const [value, setValue] = useState("");
+    const handleChange = (event: any) => setValue(event.target.value);
 
     return (
         <Stack spacing={8}>
@@ -54,13 +57,16 @@ export const CampaignStart = () => {
                     <Heading as="h5" size="xs">
                         Enter your phone number
                     </Heading>
-                    <Input placeholder="Number"/>
+                    <Input placeholder="Number"
+                           type="phone"
+                           value={value}
+                           onChange={handleChange}
+                    />
                 </Stack>
                 <Stack isInline spacing={8} align="center">
                     <Button onClick={onClick} w="180px">Start call</Button>
                 </Stack>
             </Stack>
-
             <Copyright/>
 
         </Stack>
