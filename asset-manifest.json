@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/hack2020-gtc-digital-advocacy-fe/static/css/main.5ecd60fb.chunk.css",
-    "main.js": "/hack2020-gtc-digital-advocacy-fe/static/js/main.e80d5c1f.chunk.js",
-    "main.js.map": "/hack2020-gtc-digital-advocacy-fe/static/js/main.e80d5c1f.chunk.js.map",
+    "main.js": "/hack2020-gtc-digital-advocacy-fe/static/js/main.55f6c67f.chunk.js",
+    "main.js.map": "/hack2020-gtc-digital-advocacy-fe/static/js/main.55f6c67f.chunk.js.map",
     "runtime-main.js": "/hack2020-gtc-digital-advocacy-fe/static/js/runtime-main.37f861d1.js",
     "runtime-main.js.map": "/hack2020-gtc-digital-advocacy-fe/static/js/runtime-main.37f861d1.js.map",
-    "static/js/2.723d7e5e.chunk.js": "/hack2020-gtc-digital-advocacy-fe/static/js/2.723d7e5e.chunk.js",
-    "static/js/2.723d7e5e.chunk.js.map": "/hack2020-gtc-digital-advocacy-fe/static/js/2.723d7e5e.chunk.js.map",
+    "static/js/2.1ebbf948.chunk.js": "/hack2020-gtc-digital-advocacy-fe/static/js/2.1ebbf948.chunk.js",
+    "static/js/2.1ebbf948.chunk.js.map": "/hack2020-gtc-digital-advocacy-fe/static/js/2.1ebbf948.chunk.js.map",
     "index.html": "/hack2020-gtc-digital-advocacy-fe/index.html",
-    "precache-manifest.383678bc54fb075bf86c1240ff41a1f4.js": "/hack2020-gtc-digital-advocacy-fe/precache-manifest.383678bc54fb075bf86c1240ff41a1f4.js",
+    "precache-manifest.e074463e3d7bd4e143a97f3e5472817a.js": "/hack2020-gtc-digital-advocacy-fe/precache-manifest.e074463e3d7bd4e143a97f3e5472817a.js",
     "service-worker.js": "/hack2020-gtc-digital-advocacy-fe/service-worker.js",
     "static/css/main.5ecd60fb.chunk.css.map": "/hack2020-gtc-digital-advocacy-fe/static/css/main.5ecd60fb.chunk.css.map",
-    "static/js/2.723d7e5e.chunk.js.LICENSE.txt": "/hack2020-gtc-digital-advocacy-fe/static/js/2.723d7e5e.chunk.js.LICENSE.txt",
+    "static/js/2.1ebbf948.chunk.js.LICENSE.txt": "/hack2020-gtc-digital-advocacy-fe/static/js/2.1ebbf948.chunk.js.LICENSE.txt",
     "static/media/LMI_GotoConnect_banner.svg": "/hack2020-gtc-digital-advocacy-fe/static/media/LMI_GotoConnect_banner.59e3c6b5.svg",
     "static/media/campaign-cover.jpg": "/hack2020-gtc-digital-advocacy-fe/static/media/campaign-cover.84239ffb.jpg",
     "static/media/deepak_doe.jpg": "/hack2020-gtc-digital-advocacy-fe/static/media/deepak_doe.bc5875d8.jpg",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.37f861d1.js",
-    "static/js/2.723d7e5e.chunk.js",
+    "static/js/2.1ebbf948.chunk.js",
     "static/css/main.5ecd60fb.chunk.css",
-    "static/js/main.e80d5c1f.chunk.js"
+    "static/js/main.55f6c67f.chunk.js"
   ]
 }
