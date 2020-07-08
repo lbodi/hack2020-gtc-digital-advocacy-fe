@@ -4,7 +4,7 @@ import {Callee} from "../data/callee";
 import {CalleeCard} from "./CalleeCard";
 import {Box, Heading, Stack, Text, Input} from "@chakra-ui/core";
 import {Copyright} from "./Copyright";
-import {useHistory} from "react-router-dom";
+import {useHistory, useParams} from "react-router-dom";
 import {Button} from "@getgo/instant-join-ui";
 
 const callees = campaigns[0].callees.map((callee: Callee) =>
@@ -14,9 +14,9 @@ const callees = campaigns[0].callees.map((callee: Callee) =>
 );
 
 export const CampaignStart = () => {
+    const { campaignId } = useParams();
     const history = useHistory();
-
-    const onClick = () => history.push("/calling");
+    const onClick = () => history.push(`/${campaignId}/calling`);
 
     return (
         <Stack spacing={8}>

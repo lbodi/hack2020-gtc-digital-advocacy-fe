@@ -2,7 +2,7 @@ import React from 'react';
 import {campaigns} from '../data/campaigns'
 import {Button, Input, Stack, Heading, Text, Box, Image} from "@getgo/instant-join-ui";
 import gtcBanner from "../img/GTC_banner.png";
-import {useHistory} from 'react-router-dom';
+import {useHistory, useParams} from 'react-router-dom';
 import {Copyright} from "./Copyright";
 
 const formatText = (text: string) =>
@@ -11,9 +11,9 @@ const formatText = (text: string) =>
     ));
 
 export const CampaignInfo = () => {
+    const { campaignId } = useParams();
     const history = useHistory();
-
-    const onClick = () => history.push("/start");
+    const onClick = () => history.push(`/${campaignId}/start`);
 
     return (
         <Stack spacing={8}>
