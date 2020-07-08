@@ -50,12 +50,12 @@ export const CampaignStart = () => {
             </Stack>
 
             <Stack spacing={4}>
-                <Box w="300px">
+                <Stack w="300px" spacing={1}>
                     <Heading as="h5" size="xs">
                         Enter your phone number
                     </Heading>
                     <Input placeholder="Number"/>
-                </Box>
+                </Stack>
                 <Stack isInline spacing={8} align="center">
                     <Button onClick={onClick} w="180px">Start call</Button>
                 </Stack>

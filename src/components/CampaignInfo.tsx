@@ -1,7 +1,7 @@
 import React from 'react';
 import {campaigns} from '../data/campaigns'
 import {Button, Input, Stack, Heading, Text, Box, Image} from "@getgo/instant-join-ui";
-import gtcBanner from "../img/GTC_banner.png";
+import gtcBanner from "../img/LMI_GotoConnect_banner.svg";
 import {useHistory, useParams} from 'react-router-dom';
 import {Copyright} from "./Copyright";
 
@@ -17,12 +17,14 @@ export const CampaignInfo = () => {
 
     return (
         <Stack spacing={8}>
-            <Heading as="h1" size="xl">
-                Digital advocacy campaign
-            </Heading>
-            <Box>
-                <Image src={gtcBanner} alt="GotoConnect banner"/>
-            </Box>
+            <Stack spacing={4}>
+                <Heading as="h1" size="xl">
+                    Digital advocacy campaign
+                </Heading>
+                <Box>
+                    <Image src={gtcBanner} alt="GotoConnect banner"/>
+                </Box>
+            </Stack>
 
             <Heading as="h3" size="lg">
                 {campaigns[0].title}
@@ -41,12 +43,12 @@ export const CampaignInfo = () => {
             <Text>Enter your zip code below to get started.</Text>
 
             <Stack spacing={4}>
-                <Box w="300px">
+                <Stack w="300px" spacing={1}>
                     <Heading as="h5" size="xs">
                         Zip code
                     </Heading>
                     <Input placeholder="11111"/>
-                </Box>
+                </Stack>
                 <Stack isInline spacing={8} align="center">
                     <Button onClick={onClick} w="180px">Next</Button>
                 </Stack>
